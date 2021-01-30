@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Document</title>
     <style>
         img {
@@ -13,8 +13,21 @@
 </head>
 
 <body>
-    <h1>刘德华</h1>
+    <nav>
+        <ol>
+            <li><a href="#names">个人简介</a> </li>
+            <li><a href="#films">影视事业</a> </li>
+            <li><a href="#photos">生活照</a> </li>
+            <li><a href="#actives">公益活动</a> </li>
+        </ol>
+    </nav>
+
+
+
+    <h1 id="names">个人简介</h1>
+    <h2>刘德华</h2>
     <p>刘德华，BBS，MH，JP（英语：Andy Lau Tak-wah；1961年9月27日－），香港演员、歌手、填词人、监制及出品人。</p>
+
     <p>
         <ul>
             <Li>1990年代获封为香港乐坛“四大天王”之一。</Li>
@@ -28,7 +41,7 @@
             <Li>2018年6月受邀加入美国电影艺术与科学学会成为奥斯卡金像奖评委。</Li>
         </ul>
     </p>
-    <h1>影视事业</h1>
+    <h1 id="films">影视事业</h1>
     <h2>无线及影坛初期</h2>
     <p>
         <ul>
@@ -52,7 +65,7 @@
             <li>2005年在陈德森执导的奇幻悲剧电影《童梦奇缘》中，刘克服挑战借化妆技术呈现了巨大年龄跨度的演出，他的表现不仅成为视频的最大看点，其光仔一角又获金像奖最佳男主角提名。</li>
         </ul>
     </p>
-    <h2> 合拍片时期</h2>
+    <h2>合拍片时期</h2>
     <p>
         <ul>
             <li>2003年以来香港与内地的电影合作不断加深，刘德华也经常在合拍片中担任主角。</li>
@@ -60,13 +73,19 @@
             <li>2017年刘德华监制并主演邱礼涛编导的大制作港产警匪片《拆弹专家》</li>
         </ul>
     </p>
-    <h2>生活照</h2>
+    <h1 id="photos">生活照</h1>
 
-    <div><img src="images/01.jpg" alt="刘德华的照片" width="500px"></div>
-    <div><img src="images/02.jpg" alt="刘德华的照片" width="500px"></div>
-    <div><img src="images/03.jpg" alt="刘德华的照片" width="500px"></div>
+    <div>
+        <a href="images/01.jpg" target="_blank"><img src="images/01.jpg" alt="刘德华的照片" width="500px"></a>
+    </div>
+    <div>
+        <a href="images/02.jpg" target="_blank"><img src="images/02.jpg" alt="刘德华的照片" width="500px"></a>
+    </div>
+    <div>
+        <a href="images/03.jpg" target="_blank"><img src="images/03.jpg" alt="刘德华的照片" width="500px"></a>
+    </div>
 
-    <h2>公益活动</h2>
+    <h1 id="actives">公益活动</h1>
     <table>
         <tbody>
             <tr>
@@ -127,6 +146,7 @@
             </tr>
         </tbody>
     </table>
+    <div style="height: 600px;"></div>
 </body>
 
 </html>
